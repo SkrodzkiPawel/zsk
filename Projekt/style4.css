@@ -1,0 +1,466 @@
+@media (max-width: 800px) and (min-width: 500px)
+{
+  body
+  {
+    min-height: 500px;
+  }
+
+  header
+  {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  img
+  {
+    width: 300px;
+    height: 120px;
+  }
+  #img
+  {
+    margin-bottom: -3px;
+    align-self: flex-end;
+    display: none;
+  }
+
+  nav
+  {
+    color: #252121;
+    background-color: #E0E0E0;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: arial;
+    padding: 10px 10px 10px 20px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 5px grey;
+  }
+
+  #login
+  {
+    width: 270px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .login
+  {
+    width: 110px;
+    text-decoration: none;
+    color: #252121;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #E0E0E0;
+    padding: 6px;
+    text-align: center;
+    user-select: none;
+    box-shadow: 3px 3px 5px grey;
+  }
+
+  #article
+  {
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 40px 0 20px;
+    box-shadow: 4px 4px 10px black;
+  }
+
+  #logowanie, #rejestracja
+  {
+    text-align: center;
+    background-color: white;
+  }
+
+  ul
+  {
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
+  }
+  li
+  {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    list-style-type: none;
+    border-bottom: 0px;
+    font-size: 20px;
+    padding: 5px 5px;
+    border-left: 7px white solid;
+    border-right: 7px white solid;
+    border-bottom: 1pt black solid;
+  }
+  #li
+  {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    list-style-type: none;
+    border-bottom-width: 0px;
+  }
+
+  .aktualnosci
+  {
+    padding: 20px;
+    background-color: #E0E0E0;
+    margin: 15px 0;
+    box-shadow: 2px 2px 3px grey;
+  }
+
+  #create_new_set
+  {
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+    background-color: #1DB954;
+    margin: -15px 0 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px grey;
+    padding: 5px 0;
+  }
+
+  h1
+  {
+    text-align: right;
+    font-size: 35px;
+    padding-bottom: 20px;
+    margin-right: 5%;
+  }
+
+  h2
+  {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-plus-circled
+  {
+    font-size: 30px;
+  }
+
+  #sets_area
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #flashcards_form
+  {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px 80px 80px 1fr;
+  }
+
+  #sets_name
+  {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  .umieszcz
+  {
+    width: 200px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1DB954;
+    border: 0px;
+    box-shadow: 2px 2px 3px grey;
+  }
+
+  #add_flashcard_button, #number_of_rows
+  {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 2%;
+  }
+
+  #create_set
+  {
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  .flashcards_input
+  {
+    width: 190px;
+    height: 26px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  #grid1
+  {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid2
+  {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid3
+  {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #grid4
+  {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+  }
+  #grid5
+  {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #grid6
+  {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #grid7
+  {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sets
+  {
+    width: 85%;
+    height: 120px;
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 3px grey;
+    margin: 1%;
+    padding: 15px 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    font-size: smaller;
+  }
+
+  #categories
+  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+  }
+
+  #languages
+  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  #users
+  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+  }
+
+  #verified
+  {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #1DB954;
+    font-weight: bold;
+  }
+
+  .h3_article
+  {
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 10px;
+  }
+
+  .h3_sets
+  {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+
+  #quantity
+  {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+  }
+
+  #created_at_sets
+  {
+    color: #A0A0A0;
+    grid-column-start: 5;
+    grid-row-start: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  #created_at_article
+  {
+    text-align: right;
+    font-size: smaller;
+    color: #A0A0A0;
+    margin: 1.5% -1% -1% 0;
+  }
+
+  #flashcards_area, #create_set
+  {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #flashcards_back_button
+  {
+    background-color: #1DB954;
+    align-self: flex-start;
+    border-style: none;
+    box-shadow: 2px 2px 3px grey;
+  }
+
+  #create_flashcards_back_button
+  {
+    background-color: #1DB954;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    border-style: none;
+    box-shadow: 2px 2px 3px grey;
+  }
+
+  #flashcards_buttons
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 80%;
+    align-self: center;
+  }
+
+  .flashcards
+  {
+    align-self: center;
+    width: 80%;
+    margin-top: 5%;
+    height: 350px;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 2px 2px 5px grey;
+  }
+
+  #words, #translations
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #translations
+  {
+    display: none;
+  }
+
+  footer
+  {
+    height: 230px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer
+  {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 36px;
+  }
+}

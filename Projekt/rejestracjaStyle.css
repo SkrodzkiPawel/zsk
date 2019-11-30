@@ -1,0 +1,295 @@
+input, select
+{
+  text-align: center;
+}
+
+.button:hover
+{
+  cursor: pointer;
+}
+
+@media (min-width: 1100px)
+{
+  #rejestracja
+  {
+    margin: 50px 40px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #rej
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    height: 1000px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 280px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 19px;
+  }
+
+  label
+  {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    margin: 15px 15px 0 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  select
+  {
+    width: 290px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 19px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 1100px) and (min-width: 1000px)
+{
+  #rejestracja
+  {
+    margin: 50px 40px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #rej
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    height: 1000px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 280px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 19px;
+  }
+
+  label
+  {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    margin: 15px 15px 0 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  select
+  {
+    width: 290px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 19px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 1000px) and (min-width: 800px)
+{
+  #rejestracja
+  {
+    margin: 50px 40px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #rej
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    height: 1000px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 280px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 19px;
+  }
+
+  label
+  {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    margin: 15px 15px 0 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  select
+  {
+    width: 290px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 19px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 800px) and (min-width: 500px)
+{
+  #rejestracja
+  {
+    margin: 50px 40px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #rej
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    height: 1000px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 280px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 19px;
+  }
+
+  label
+  {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    margin: 15px 15px 0 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  select
+  {
+    width: 220px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 19px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 500px)
+{
+  #rejestracja
+  {
+    margin: 50px 40px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #rej
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    height: 1000px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 280px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 19px;
+  }
+
+  label
+  {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    margin: 15px 15px 0 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  select
+  {
+    width: 170px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}

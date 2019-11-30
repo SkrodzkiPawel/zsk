@@ -1,0 +1,235 @@
+input
+{
+  text-align: center;
+}
+
+.button:hover
+{
+  cursor: pointer;
+}
+
+@media (min-width: 1100px)
+{
+  #logowanie
+  {
+    margin: 50px 40px;
+    height: 400px;
+  }
+
+  #log
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  label
+  {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 1000px)
+{
+  #logowanie
+  {
+    margin: 50px 40px;
+    height: 400px;
+  }
+
+  #log
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  label
+  {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 800px)
+{
+  #logowanie
+  {
+    margin: 50px 40px;
+    height: 400px;
+  }
+
+  #log
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  label
+  {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
+@media (max-width: 800px) and (min-width: 500px)
+{
+  #logowanie
+  {
+    margin: 50px 40px;
+    height: 400px;
+  }
+
+  #log
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  label
+  {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
+@media (max-width: 500px)
+{
+  #logowanie
+  {
+    margin: 50px 40px;
+    height: 400px;
+  }
+
+  #log
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    min-height: 400px;
+    background-color: white;
+  }
+
+  .inp
+  {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 23px;
+  }
+
+  label
+  {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button
+  {
+    width: 240px;
+    height: 45px;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
